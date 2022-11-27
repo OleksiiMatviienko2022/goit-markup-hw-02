@@ -45,8 +45,8 @@ ul {
       color: #212121;
   }
 
-  .contact-list a:hover {
-      color #2196F3;
+  .contact-list a:hover, .contact-list a:focus {
+      color: #2196F3;
   }
 
  /*Стилі головної сторінки main*/
@@ -58,11 +58,31 @@ ul {
  .hero-title {
      color: #FFFFFF;
  }
+
  .hero-button {
     background-color: #2196F3;
     color: #FFFFFF;
  }
 
+.hero-button:hover, .hero-button:focus {
+    background-color: #2196F3;
+        color: #FFFFFF;
+}
+
+/*Скрили заголовок Наші цінності*/
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
  .section-title {
      color: #212121; 
@@ -76,15 +96,23 @@ ul {
         background-color: #F5F4FA;
     }
 
+    .team-members {
+        background-color: #FFFFFF;
+    }
+
 
 
    /*Стилі footer*/ 
  
- .footer {
+ footer {
      background-color: #2F303A;
     }
 .adress {
      color: #FFFFFF;
+    }
+
+    .address-list a:hover, .address-list a:focus {
+        color: #2196F3;
     }
 .mail, .phone {
      color: rgba(255, 255, 255, 0.6);
