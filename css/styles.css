@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: #757575;
 }
 
@@ -99,6 +99,25 @@ ul {
     .team-members {
         background-color: #FFFFFF;
     }
+
+    /*Стилі сторінки Портфоліо*/
+
+    .portfolio-button {
+        background-color: #F5F4FA;
+        color: #212121;
+    }
+
+    .portfolio-button:hover, .portfolio-button:focus {
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
+
+    .photo-background {
+        background-color: #EEEEEE;
+    }
+
+
+
 
 
 
