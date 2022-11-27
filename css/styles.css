@@ -18,14 +18,38 @@ ul {
 /* фоновий колір "Наші цінності" #F5F5F5 */
 /* фоновий колір "Наша команда" #F5F4FA */
 /* колір телефон-пошта footer rgba(255, 255, 255, 0.6) */
+ 
+/*Стилі header*/
 
-.logo-web { color: #2196F3;}
-.logo-studioheader { color: #000000;}
-.logo-studiofooter { color: #FFFFFF;}
+.logo-web {
+     color: #2196F3;
+    }
 
-.site-nav a { color: #212121;}
-.site-nav a:hover, .site-nav a:focus
- { color: #2196F3;}
+.logo-studioheader {
+     color: #000000;
+    }
+
+.logo-studiofooter {
+     color: #FFFFFF;
+    }
+
+.site-nav a {
+     color: #212121;
+    }
+
+.site-nav a:hover, .site-nav a:focus {
+     color: #2196F3;
+    }
+
+  .contact-list a {
+      color: #212121;
+  }
+
+  .contact-list a:hover {
+      color #2196F3;
+  }
+
+ /*Стилі головної сторінки main*/
 
  .hero {
      background-color: #2F303A;
@@ -39,15 +63,32 @@ ul {
     color: #FFFFFF;
  }
 
- .contact-list a { color: #212121;}
- .contact-list a:hover { color #2196F3;}
- .section-title { color: #212121; }
+
+ .section-title {
+     color: #212121; 
+    }
  
- .title-name { color: #212121;}
+ .title-name {
+     color: #212121;
+    }
+
+    .team {
+        background-color: #F5F4FA;
+    }
+
+
+
+   /*Стилі footer*/ 
  
- footer { background-color: #2F303A;}
-.adress { color: #FFFFFF;}
-.mail, .phone { color: rgba(255, 255, 255, 0.6);}
+ .footer {
+     background-color: #2F303A;
+    }
+.adress {
+     color: #FFFFFF;
+    }
+.mail, .phone {
+     color: rgba(255, 255, 255, 0.6);
+    }
 
 
 
