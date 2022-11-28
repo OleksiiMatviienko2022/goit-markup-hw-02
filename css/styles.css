@@ -1,6 +1,9 @@
 body {
     background-color: #FFFFFF;
     color: #757575;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* Прибирання маркерів */
@@ -23,30 +26,68 @@ ul {
 
 .logo-web {
      color: #2196F3;
+
+     font-family: Raleway, sans-serif;
+     Font style: 700;
+     Font size: 26px;
+     Line height: 1.2;
+
     }
 
 .logo-studioheader {
      color: #000000;
+
+    font-family: Raleway, sans-serif;
+    Font style: 700;
+    Font size: 26px;
+    Line height: 1.2;
+
     }
 
 .logo-studiofooter {
      color: #FFFFFF;
+
+    font-family: Raleway, sans-serif;
+    Font style: 700;
+    Font size: 26px;
+    Line height: 1.2;
+
     }
 
 .site-nav a {
      color: #212121;
+
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
     }
 
 .site-nav a:hover, .site-nav a:focus {
      color: #2196F3;
+
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
     }
 
   .contact-list a {
       color: #212121;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
   }
 
   .contact-list a:hover, .contact-list a:focus {
       color: #2196F3;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
   }
 
  /*Стилі головної сторінки main*/
@@ -57,16 +98,41 @@ ul {
 
  .hero-title {
      color: #FFFFFF;
+
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.36;
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
  }
 
  .hero-button {
     background-color: #2196F3;
     color: #FFFFFF;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
  }
 
 .hero-button:hover, .hero-button:focus {
     background-color: #2196F3;
         color: #FFFFFF;
+
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
 
 /*Скрили заголовок Наші цінності*/
@@ -86,10 +152,27 @@ ul {
 
  .section-title {
      color: #212121; 
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
     }
  
  .title-name {
      color: #212121;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    } 
+
+    .values p {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
     }
 
     .team {
@@ -98,6 +181,7 @@ ul {
 
     .team-members {
         background-color: #FFFFFF;
+        color: #212121;
     }
 
     /*Стилі сторінки Портфоліо*/
@@ -105,11 +189,13 @@ ul {
     .portfolio-button {
         background-color: #F5F4FA;
         color: #212121;
+        font-family: inherit;
     }
 
     .portfolio-button:hover, .portfolio-button:focus {
         background-color: #2196F3;
         color: #FFFFFF;
+        font-family: inherit;
     }
 
     .photo-background {
