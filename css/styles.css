@@ -183,6 +183,19 @@ ul {
         background-color: #FFFFFF;
         color: #212121;
     }
+    .team-members h3 {
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+    }
+      
+    .team-members p {
+         
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+    }
 
     /*Стилі сторінки Портфоліо*/
 
@@ -214,10 +227,22 @@ ul {
     }
 .adress {
      color: #FFFFFF;
+
+    }
+
+    .address-list {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
     }
 
     .address-list a:hover, .address-list a:focus {
         color: #2196F3;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
     }
 .mail, .phone {
      color: rgba(255, 255, 255, 0.6);
