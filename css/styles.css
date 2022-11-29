@@ -4,6 +4,7 @@
     --header-color: #212121;
     --text-accent-color: #2196f3;
     --bacground-color: #ffffff;
+    --second-background-color: #F5F4FA;
     
 
 }
@@ -12,7 +13,7 @@ body {
     background-color: var(--bacground-color);
     color: var(--paragraf-color);
 
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
 
@@ -35,55 +36,48 @@ ul {
 /*Стилі header*/
 
 .logo {
+
+    color: var(--text-accent-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
     text-decoration: none;
-    list-style-type: none;
-}
-
-.logo-web {
-     color: var(--text-accent-color);
-
-     font-family: Raleway, sans-serif;
-     Font style: 700;
-     Font size: 26px;
-     Line height: 1.2;
-    
-
 
     }
+
 
 .logo-studioheader {
      color: #000000;
 
-    font-family: Raleway, sans-serif;
-    Font style: 700;
-    Font size: 26px;
-    Line height: 1.2;
-    
     }
 
 .logo-studiofooter {
      color: var(--bacground-color);
-
-    font-family: Raleway, sans-serif;
-    Font style: 700;
-    Font size: 26px;
-    Line height: 1.2;
     
     }
 
-.site-nav a {
+.nav .nav-link.current {
+    color: var(--text-accent-color);
+    }
+
+
+
+.nav-link {
      color: var(--header-color);
 
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
      letter-spacing: 0.02em;
-
     text-decoration: none;
-    list-style-type: none;
+
+
     }
 
-.site-nav a:hover, .site-nav a:focus {
+.nav-link:hover, .nav-link:focus {
      color: var(--text-accent-color);
 
      font-weight: 500;
@@ -92,7 +86,7 @@ ul {
      letter-spacing: 0.02em;
     }
 
-  .contact-list a {
+  .contact-list  {
       color: var(--paragraf-color);
 
       font-weight: 500;
@@ -101,10 +95,9 @@ ul {
       letter-spacing: 0.02em;
 
     text-decoration: none;
-    list-style-type: none;
   }
 
-  .contact-list a:hover, .contact-list a:focus {
+  .contact-list:hover, .contact-list:focus {
       color: var(--text-accent-color);
 
       font-weight: 500;
@@ -138,8 +131,6 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -147,19 +138,18 @@ ul {
  }
 
 .hero-button:hover, .hero-button:focus {
-    background-color: var(--text-accent-color);
-        color: var(--bacground-color);
 
-        font-family: inherit;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+    color: var(--second-background-color);
 
-        cursor: pointer;
+    font-family: inherit;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    cursor: pointer;
 }
 
 /*Скрили заголовок Наші цінності*/
@@ -195,19 +185,25 @@ ul {
     text-transform: uppercase;
     } 
 
-    .values p {
+    .values {
 
         font-size: 14px;
         line-height: 1.71;
     }
 
     .team {
-        background-color: #F5F4FA;
+        background-color: var(--second-background-color);
     }
 
     .team-members {
-        background-color: var(--bacground-color);
+        
         color: var(--header-color);
+    }
+
+    .team-item {
+
+        background-color: var(--bacground-color);
+
     }
     .team-members h3 {
 
@@ -227,7 +223,7 @@ ul {
     /*Стилі сторінки Портфоліо*/
 
     .portfolio-button {
-        background-color: #F5F4FA;
+        background-color: var(--second-background-color);
         color: var(--header-color);
         font-family: inherit;
         font-weight: 500;
@@ -251,8 +247,13 @@ ul {
     .photo-background {
         background-color: #EEEEEE;
     }
+
+    .project {
+
+    text-decoration: none;
+    }
  
-    .projects h3 {
+    .project-title {
 
         color: var(--header-color);
 
@@ -262,7 +263,9 @@ ul {
         letter-spacing: 0.06em;
     }
 
-    .projects p { 
+    .project-filter { 
+
+        color: var(--paragraf-color);
 
         font-size: 16px;
         line-height: 1.88;
@@ -277,21 +280,23 @@ ul {
     }
 
 
-    .address-list a {
+    .address-list {
 
         font-size: 14px;
         line-height: 1.71;
 
         text-decoration: none;
         list-style-type: none;
+        font-style: normal;
 
     }
 
-    .address-list a:hover, .address-list a:focus {
+    .address-list:hover, .address-list:focus {
         color: var(--text-accent-color);
 
         font-size: 14px;
         line-height: 1.71;
+        font-style: normal;
     }
 
         .google-map {
