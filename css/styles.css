@@ -139,17 +139,8 @@ ul {
 
 .hero-button:hover, .hero-button:focus {
 
-    color: var(--second-background-color);
+    background-color: #188CE8;
 
-    font-family: inherit;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-    
-    cursor: pointer;
 }
 
 /*Скрили заголовок Наші цінності*/
@@ -195,27 +186,24 @@ ul {
         background-color: var(--second-background-color);
     }
 
-    .team-members {
+    .team-item {
+    
+            background-color: var(--bacground-color);
+    
+    }
+
+    .team-member {
         
         color: var(--header-color);
-    }
-
-    .team-item {
-
-        background-color: var(--bacground-color);
-
-    }
-    .team-members h3 {
-
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
     }
-      
-    .team-members p {
 
-        color: var(--paragraf-color);
-         
+    
+    .team-profession {
+
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
     }
@@ -223,6 +211,7 @@ ul {
     /*Стилі сторінки Портфоліо*/
 
     .portfolio-button {
+
         background-color: var(--second-background-color);
         color: var(--header-color);
         font-family: inherit;
@@ -234,14 +223,10 @@ ul {
     }
 
     .portfolio-button:hover, .portfolio-button:focus {
+
         background-color: var(--text-accent-color);
         color: var(--bacground-color);
-        font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
-
-        cursor: pointer;
+        
     }
 
     .photo-background {
@@ -312,5 +297,6 @@ ul {
 
     }
 
+    
 
 
